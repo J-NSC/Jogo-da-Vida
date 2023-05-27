@@ -17,10 +17,10 @@ public class Pattern : ScriptableObject
 
         for(int i = 0; i < cells.Length; i++) {
             Vector2Int cell = cells[i];
-            min.x = Mathf.Min(cell.x, min.x);
-            min.y = Mathf.Min(cell.y, min.y);
-            max.x = Mathf.Max(cell.x, min.x);
-            max.y = Mathf.Max(cell.y, min.y);
+            min.x = Mathf.Min(min.x, cell.x);
+            min.y = Mathf.Min(min.y, cell.y);
+            max.x = Mathf.Max(max.x, cell.x);
+            max.y = Mathf.Max(max.y, cell.y);
         }
 
         return (min + max ) / 2;
