@@ -156,8 +156,8 @@ MonoBehaviour:
   currentState: {fileID: 723128546}
   nextState: {fileID: 1815240592}
   aliveTile: {fileID: 11400000, guid: 103b0860359e2a445b5d757505e989d2, type: 2}
-  deadTile: {fileID: 11400000, guid: 3f1086a7788ef424a8929fa1069bfc27, type: 2}
-  pattern: {fileID: 11400000, guid: 3f4f5e6c650b8d244b11a44476400188, type: 2}
+  deadTile: {fileID: 0}
+  pattern: {fileID: 11400000, guid: 932984295033c6a47b9aea42af4e6768, type: 2}
   updateInterval: 0.05
   population: 0
   iterations: 0
@@ -364,7 +364,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 30
+  orthographic size: 40.85
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
